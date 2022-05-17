@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <script
+      src="https://kit.fontawesome.com/6c59d03160.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Conference-page</title>
+  </head>
+  <body>
+    <header>
+      <!-- Nav-bar -->
+      <div id="secondary-nav-bar" class="container">
+        <div class="wrapper">
+          <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+          <a href="#"><i class="fa-brands fa-twitter"></i></a>
+          <a href="#">English</a>
+          <a href="#">My Pages</a>
+          <a href="#">Logout</a>
+        </div>
+      </div>
+      <div id="nav-bar">
+        <a href="#" id="logo"
+          ><img src="./assets/img/cc-global.png" alt="global-summit-logo"
+        /></a>
+        <nav id="menu">
+          <span id="menu-close-btn"><i class="fa-solid fa-xmark"></i></span>
+          <a href="#" class="home-link">Home</a>
+          <a href="#program">Program</a>
+          <a href="#speakers">Speakers</a>
+          <a href="#sponsors">Sponsors</a>
+          <a href="./about.html">About</a>
+          <button class="btn-campaign" type="submit">
+            <span>CC campaign</span>
+          </button>
+        </nav>
+        <a href="#" id="menu-toggler">
+          <i class="fa-solid fa-bars"></i>
+        </a>
+      </div>
+    </header>
+
+    <!-- Hero-section -->
+    <section id="hero" class="container">
+      <div class="wrapper">
+        <img
+          src="./assets/img/shape-set-01.png"
+          alt="shape-set"
+          class="shape-set"
+        />
+        <h1>
+          Creative commons<br />
+          global summit<br />
+          2015
+        </h1>
+        <h2>"Hello!Sharing world"</h2>
+        <p class="description">
+          A joyful celebration believing in the value of openness and sharing,
+          creating a positive charge with people from over 80 countries is
+          taking place in October, in Korea.
+        </p>
+        <h3>2015.10.15(THU) ~ 16(FRI)</h3>
+        <p class="location">
+          &#64; National Museum of Korea, Art Center Nabi and more.
+        </p>
+      </div>
+    </section>
+
+    <!-- Program-section -->
+    <section id="program">
+      <h2 class="section-heading">Main Program</h2>
+      <div class="items">
+        <div class="item">
+          <img src="./assets/img/icons-1.svg" alt="icons-1" class="item-icon" />
+          <h3 class="item-title">Lecture</h3>
+          <p class="item-description">
+            Listen to the speakers from various countries about the message of
+            sharing and opening.
+          </p>
+        </div>
+        <div class="item">
+          <img src="./assets/img/icons-2.svg" alt="icon-2" class="item-icon" />
+          <h3 class="item-title">CC Exhibition</h3>
+          <p class="item-description">
+            Appreciate various creations applying CC license of artists,
+            organized from Art Center Nabi.
+          </p>
+        </div>
+        <div class="item">
+          <img src="./assets/img/icons-3.svg" alt="icon-3" class="item-icon" />
+          <h3 class="item-title">Forum</h3>
+          <p class="item-description">
+            Have the time to share your thoughts and opinions with experts for
+            each topic.
+          </p>
+        </div>
+        <div class="item">
+          <img src="./assets/img/icons-4.svg" alt="icon-4" class="item-icon" />
+          <h3 class="item-title">WorkShop</h3>
+          <p class="item-description">
+            Try creating your own work using open source license rather than
+            just watching.
+          </p>
+        </div>
+        <div class="item">
+          <img src="./assets/img/icons-5.svg" alt="icon-5" class="item-icon" />
+          <h3 class="item-title">CC Ignite</h3>
+          <p class="item-description">
+            Get opportunities to network with CC affiliates around the world,
+            also after the summit.
+          </p>
+        </div>
+      </div>
+      <button>
+        <a href="#" class="cta" type="submit"> Join CC Global Summit 2015</a>
+      </button>
+    </section>
+
+    <!-- Speakers-section -->
+    <section id="speakers" class="container">
+      <div class="wrapper">
+        <h2 class="section-heading">Feature Speakers</h2>
+
+        <div class="persons"></div>
+
+        <a href="#" id="toggle-more-speakers" class="more"
+          >More
+          <i class="fa-solid fa-angle-down"></i>
+        </a>
+      </div>
+    </section>
+
+    <!-- Sponsors(partners)- section -->
+    <section id="sponsors">
+      <h2 class="section-heading">Partner</h2>
+      <div class="sponsors-list">
+        <img src="./assets/img/sponsor-1.png" title="Google" alt="Google" />
+        <img
+          src="./assets/img/sponsor-2.png"
+          title="Next-cloud"
+          alt="Next-cloud"
+        />
+
+        <img src="./assets/img/sponsor-3.png" title="KDE" alt="KDE" />
+        <img
+          src="./assets/img/sponsor-4.png"
+          title="Mozilla Foundation"
+          alt="Mozilla Foundation"
+        />
+        <img src="./assets/img/sponsor-5.png" title="airbnb" alt="airbnb" />
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="container">
+      <div class="wrapper">
+        <div class="branding">
+          <i class="fa-brands fa-creative-commons"></i>
+          <p>
+            creative<br />
+            commons
+          </p>
+        </div>
+        <div class="info">
+          <p class="copyright">
+            &copy; 2015 Creative Commons Korea.<br />
+            Some Rights Reserved.
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="./assets/js/script.js"></script>
+  </body>
+</html>
