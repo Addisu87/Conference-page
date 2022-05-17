@@ -19,37 +19,46 @@ closeMenuBtn.addEventListener('click', (event) => {
   toggleMenu(event);
 });
 
-menuLinks.forEach((link) =>
-  link.addEventListener('click', (event) => toggleMenu(event, false))
-);
+menuLinks.forEach((link) => link.addEventListener('click', (event) => toggleMenu(event, false)));
 
 // dynamic speakers insertion
-
 const speakers = [
   {
-    name: 'Yonas',
-    title: 'Software Freedom Activist',
+    name: 'Yonas Fissaha',
+    title: 'CEO of creative Commons, ex COO of the Mozilla Foundation.',
     image: '../img/person1.jpeg',
-    bio: 'I support Software Freedom as it is the only way to achieve justice in IT.'
+    bio: 'Yonas had been leading open-source projects at the Mozilla Foundation such as the open source movement.',
   },
   {
-    name: 'Mertzer',
-    title: 'Lawyer',
+    name: 'Mertzer Haile',
+    title: 'Software Freedom Activist',
     image: '../img/person2.jpeg',
-    bio: 'I help individuals and companies to make sure nobody violate GPL licenses.'
+    bio: 'I support Software Freedom as it is the only way to achieve justice in IT.',
   },
   {
-    name: 'Addisu',
+    name: 'Addisu Haile',
     title: 'Digital painter',
     image: '../img/person3.jpg',
-    bio: 'I use krita for my creative art works. I help others to do the same.'
+    bio: 'I use krita for my creative art works. I help others to do the same.',
   },
   {
-    name: 'Samuel',
-    title: 'Lawyer',
+    name: 'Selam Teshome',
+    title: 'Laravel Developer',
     image: '../img/person4.jpeg',
-    bio: 'We deserve more that being merely operator of proprietary software.'
-  }
+    bio: 'We deserve more that being merely operator of proprietary software.',
+  },
+  {
+    name: 'Mulugeta Worku',
+    title: 'Executive Director of the Wikimedia Foundation',
+    image: '../img/person5.jpeg',
+    bio: 'Mulugeta is the Executive Director of the Wikimedia Foundation, the nonprofit organization that operates Wikepidia.',
+  },
+  {
+    name: 'Tewodros Abebaw',
+    title: 'Senior software developer',
+    image: '../img/person6.jpeg',
+    bio: 'Application Development and Administration Team Leader at University of Gondar.',
+  },
 ];
 
 const speakersPlaceHolder = document.querySelector('#speakers .persons');
