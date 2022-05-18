@@ -18,9 +18,7 @@ closeMenuBtn.addEventListener('click', (event) => {
   toggleMenu(event);
 });
 
-menuLinks.forEach((link) =>
-  link.addEventListener('click', (event) => toggleMenu(event, false))
-);
+menuLinks.forEach((link) => link.addEventListener('click', (event) => toggleMenu(event, false)));
 
 // dynamic speakers insertion
 const speakers = [
@@ -28,38 +26,38 @@ const speakers = [
     name: 'Yonas Fissaha',
     title: 'Chief Scientist SABIC Technology, USA',
     image: '../img/person1.jpeg',
-    bio: 'Yonas had been leading research group, was adviser for many Ph.D studies. Published more than 160 papers on mechanism, kinetic and mathematic models of chemical processes.'
+    bio: 'Yonas had been leading research group, was adviser for many Ph.D studies. Published more than 160 papers on mechanism, kinetic and mathematic models of chemical processes.',
   },
   {
     name: 'Mertzer Haile',
     title: 'Department of Astronomy, Nanjing University, China',
     image: '../img/person2.jpeg',
-    bio: 'Mertzer Haile teached at Peking University for 18 years and then is teaching at Nanjing University.'
+    bio: 'Mertzer Haile teached at Peking University for 18 years and then is teaching at Nanjing University.',
   },
   {
     name: 'Addisu Haile',
     title: 'Theoretical physicist @VORTEX|INSTITUTE',
     image: '../img/person3.jpg',
-    bio: 'Addisu Haile is a theoretical physicist, a philosopher of physics, the inspiration behind the New York Times best seller Sex on the Moon.'
+    bio: 'Addisu Haile is a theoretical physicist, a philosopher of physics, the inspiration behind the New York Times best seller Sex on the Moon.',
   },
   {
     name: 'Selam Teshome',
     title: 'Wageningen University & Research , Netherlands',
     image: '../img/person4.jpeg',
-    bio: 'Selam Teshome has received a major grant to study very strong chemical bonds. The title of the project is: "Synthetic Catch Bonds."'
+    bio: 'Selam Teshome has received a major grant to study very strong chemical bonds. The title of the project is: "Synthetic Catch Bonds."',
   },
   {
     name: 'Mulugeta Worku',
     title: 'Aalto University , Finland',
     image: '../img/person5.jpeg',
-    bio: 'Research topics include solar long-term variability and effects within projects ReSoLVE Center of Excellence and G-EPOS infrastructure in FIRI road map.'
+    bio: 'Research topics include solar long-term variability and effects within projects ReSoLVE Center of Excellence and G-EPOS infrastructure in FIRI road map.',
   },
   {
     name: 'Tewodros Abebaw',
     title: 'IBM Research USA, USA',
     image: '../img/person6.jpeg',
-    bio: 'Dr. Tewodros Ababaw is currently in the Quantum Applications group in IBM Quantum at IBM Research Almaden in San Jose, California.'
-  }
+    bio: 'Dr. Tewodros Ababaw is currently in the Quantum Applications group in IBM Quantum at IBM Research Almaden in San Jose, California.',
+  },
 ];
 
 const speakersPlaceHolder = document.querySelector('#speakers .persons');
