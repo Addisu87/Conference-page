@@ -1,5 +1,4 @@
 // toggle mobile menu
-
 const menu = document.getElementById('menu');
 const menuLinks = document.querySelectorAll('#menu a');
 const menuToggler = document.getElementById('menu-toggler');
@@ -19,46 +18,48 @@ closeMenuBtn.addEventListener('click', (event) => {
   toggleMenu(event);
 });
 
-menuLinks.forEach((link) => link.addEventListener('click', (event) => toggleMenu(event, false)));
+menuLinks.forEach((link) =>
+  link.addEventListener('click', (event) => toggleMenu(event, false))
+);
 
 // dynamic speakers insertion
 const speakers = [
   {
     name: 'Yonas Fissaha',
-    title: 'CEO of creative Commons, ex COO of the Mozilla Foundation.',
+    title: 'Chief Scientist SABIC Technology, USA',
     image: '../img/person1.jpeg',
-    bio: 'Yonas had been leading open-source projects at the Mozilla Foundation such as the open source movement.',
+    bio: 'Yonas had been leading research group, was adviser for many Ph.D studies. Published more than 160 papers on mechanism, kinetic and mathematic models of chemical processes.'
   },
   {
     name: 'Mertzer Haile',
-    title: 'Software Freedom Activist',
+    title: 'Department of Astronomy, Nanjing University, China',
     image: '../img/person2.jpeg',
-    bio: 'I support Software Freedom as it is the only way to achieve justice in IT.',
+    bio: 'Mertzer Haile teached at Peking University for 18 years and then is teaching at Nanjing University.'
   },
   {
     name: 'Addisu Haile',
-    title: 'Digital painter',
+    title: 'Theoretical physicist @VORTEX|INSTITUTE',
     image: '../img/person3.jpg',
-    bio: 'I use krita for my creative art works. I help others to do the same.',
+    bio: 'Addisu Haile is a theoretical physicist, a philosopher of physics, the inspiration behind the New York Times best seller Sex on the Moon.'
   },
   {
     name: 'Selam Teshome',
-    title: 'Laravel Developer',
+    title: 'Wageningen University & Research , Netherlands',
     image: '../img/person4.jpeg',
-    bio: 'We deserve more that being merely operator of proprietary software.',
+    bio: 'Selam Teshome has received a major grant to study very strong chemical bonds. The title of the project is: "Synthetic Catch Bonds."'
   },
   {
     name: 'Mulugeta Worku',
-    title: 'Executive Director of the Wikimedia Foundation',
+    title: 'Aalto University , Finland',
     image: '../img/person5.jpeg',
-    bio: 'Mulugeta is the Executive Director of the Wikimedia Foundation, the nonprofit organization that operates Wikepidia.',
+    bio: 'Research topics include solar long-term variability and effects within projects ReSoLVE Center of Excellence and G-EPOS infrastructure in FIRI road map.'
   },
   {
     name: 'Tewodros Abebaw',
-    title: 'Senior software developer',
+    title: 'IBM Research USA, USA',
     image: '../img/person6.jpeg',
-    bio: 'Application Development and Administration Team Leader at University of Gondar.',
-  },
+    bio: 'Dr. Tewodros Ababaw is currently in the Quantum Applications group in IBM Quantum at IBM Research Almaden in San Jose, California.'
+  }
 ];
 
 const speakersPlaceHolder = document.querySelector('#speakers .persons');
@@ -79,7 +80,6 @@ speakers.forEach((speaker, index) => {
 });
 
 // show more speakers by clicking on more button
-
 const moreSpeakerButton = document.getElementById('toggle-more-speakers');
 moreSpeakerButton.addEventListener('click', (event) => {
   event.preventDefault();

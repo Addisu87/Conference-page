@@ -50,11 +50,11 @@ h4,
 h5,
 h6 {
   font-family: var(--serif-font);
-  line-height: 1rem;
+  line-height: 2rem;
 }
 
 h1 {
-  font-size: 3rem;
+  font-size: 2.7rem;
 }
 
 /* header - nav-bar */
@@ -122,7 +122,7 @@ header nav.show {
   align-self: start;
   display: block;
   padding: 0.75rem;
-  width: 4rem;
+  width: 5rem;
   cursor: pointer;
   user-select: none;
 }
@@ -130,7 +130,7 @@ header nav.show {
 #nav-bar #menu a {
   color: var(--neutral);
   border-bottom: 1px solid #fff1;
-  padding: 1.5rem 3rem;
+  padding: 1rem 2rem;
   font-weight: 300;
 }
 
@@ -149,7 +149,7 @@ header #menu-toggler {
   flex-grow: 0;
 }
 
-header #menu-toggler i {
+header #menu-toggler svg {
   width: 3rem;
   height: 3rem;
 }
@@ -162,7 +162,7 @@ section {
 
 #hero {
   background: #f7f7f7;
-  background-image: url(/assets/img/sfd2022-group-photo-bg.jpg);
+  background-image: url(/assets/img/hero-bg.png);
   background-position: top center;
   background-repeat: no-repeat;
   padding: 7rem 1rem;
@@ -174,9 +174,10 @@ section {
   gap: 1rem;
   position: relative;
   z-index: 0;
+  overflow: auto;
 }
 
-#hero .shape-set {
+#hero .hero-bg {
   position: absolute;
   z-index: -1;
   bottom: -6rem;
@@ -189,9 +190,20 @@ section {
   color: var(--secondary);
 }
 
+#hero .blend {
+  width: 100%;
+  background-image: url(../img/h1-background.jpg);
+  background-size: 100%;
+}
+
 #hero h1 {
-  font-weight: 700;
-  text-shadow: 0.03em 0.03em 0.02em #0009;
+  font-weight: 600;
+  text-shadow: 0.04em 0.04em 0.02em #0009;
+  mix-blend-mode: lighten;
+  margin: 0;
+  line-height: 3rem;
+  text-transform: uppercase;
+  background: url(../img/hero-bg.png);
 }
 
 #hero h2 {
@@ -212,26 +224,31 @@ section {
 }
 
 #hero-about {
-  padding: 7rem 1rem;
+  padding: 6rem 1rem;
   text-align: center;
   display: flex;
   flex-direction: column;
   gap: 1rem;
   position: relative;
+  overflow-x: hidden;
 }
 
-#hero-about .shape-set {
+#hero-about .hero-bg {
   position: absolute;
   z-index: -1;
   top: 0;
-  inset-inline-end: -4rem;
-  transform: rotate(45deg);
-  width: 65%;
+  inset-inline-end: -5rem;
+  width: 100%;
+  height: 100%;
 }
 
 #hero-about h1,
 #hero-about h2 {
   color: var(--secondary);
+}
+
+#hero-about h1 {
+  line-height: 3rem;
 }
 
 #hero-about h2 {
@@ -294,16 +311,16 @@ section {
 #program .items {
   display: flex;
   flex-direction: column;
-  gap: 1rem;
+  gap: 0.5rem;
 }
 
 #program .item {
   display: flex;
   align-items: center;
-  gap: 1rem;
+  gap: 0.7rem;
   justify-content: stretch;
   background-color: #fff1;
-  padding: 1rem;
+  padding: 0.7rem;
   text-align: start;
 }
 
@@ -320,7 +337,7 @@ section {
 #program .item-title {
   color: var(--secondary);
   flex-grow: 1;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
 }
 
 #program .item-description {
@@ -480,6 +497,7 @@ footer {
 footer .wrapper.wrapper {
   display: flex;
   align-items: center;
+  justify-content: center;
   gap: 2rem;
 }
 
@@ -490,7 +508,19 @@ footer .branding {
   font-size: 1.25rem;
   line-height: 1em;
   flex-shrink: 0;
-  flex-basis: 7rem;
+  flex-basis: 5rem;
+  align-items: center;
+  display: flex;
+  gap: 0.5rem;
+}
+
+#footer-about {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  background-color: #333;
+  color: var(--neutral);
+  padding: 2rem 1rem;
 }
 
 /* standOut - section */
@@ -502,12 +532,13 @@ footer .branding {
   text-align: center;
 }
 
-#standOut .cc-global-logo {
-  width: 100%;
+#standOut .black-hole-logo {
+  width: 50%;
   height: 100%;
-  border-bottom: 2px solid var(--neutral);
+  border: 2px solid var(--neutral);
+  padding: 2rem 6rem;
   border-radius: 0.25rem;
-  transform: scale(0.5);
+  transform: scale(0.8);
   object-position: center center;
 }
 
@@ -577,6 +608,7 @@ footer .branding {
 @media (min-width: 768px) {
   .no-scroll {
     overflow-y: auto;
+    overflow-x: hidden;
   }
 
   header {
@@ -624,7 +656,7 @@ footer .branding {
     transform: translateX(0%);
   }
 
-  #menu-close-icon {
+  #menu-close-btn {
     display: none;
   }
 
@@ -653,7 +685,7 @@ footer .branding {
   }
 
   section {
-    padding: 4rem 1rem;
+    padding: 2rem 1rem;
   }
 
   /* Hero - section */
@@ -661,7 +693,7 @@ footer .branding {
     padding-top: 12rem;
   }
 
-  #hero .shape-set {
+  #hero .hero-bg {
     top: 55%;
     inset-inline-start: 28rem;
     width: auto;
@@ -683,6 +715,10 @@ footer .branding {
   #hero h3 {
     font-size: 2rem;
     font-weight: 500;
+  }
+
+  #hero .blend {
+    width: 60%;
   }
 
   /* Program-section */
@@ -726,7 +762,7 @@ footer .branding {
     margin-top: 4rem;
   }
 
-  #hero-about .shape-set {
+  #hero-about .hero-bg {
     width: auto;
   }
 
