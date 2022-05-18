@@ -4,6 +4,8 @@
 
 > Description the project.
 
+- A conference page for Astronomy, AstroPhysics and Space Science summit.
+
 ## Built With
 
 - Major languages - HTML, CSS and JavaScript
