@@ -35,7 +35,7 @@ const speakers = [
     bio: 'Mertzer Haile teached at Peking University for 18 years and then is teaching at Nanjing University.',
   },
   {
-    name: 'Addisu Haile',
+    name: 'Samuel Abayneh',
     title: 'Theoretical physicist @VORTEX|INSTITUTE',
     image: '../img/person3.jpg',
     bio: 'Addisu Haile is a theoretical physicist, a philosopher of physics, the inspiration behind the New York Times best seller Sex on the Moon.',
