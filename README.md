@@ -1,13 +1,14 @@
-![](https://img.shields.io/badge/Microverse-blueviolet)
-
 # Project Name
+
+- Conference page
 
 > Description the project.
 
+- A conference page for Astronomy, AstroPhysics and Space Science summit.
 
 ## Built With
 
-- Major languages
+- Major languages - HTML, CSS and JavaScript
 - Frameworks
 - Technologies used
 
@@ -15,12 +16,14 @@
 
 [Live Demo Link](https://livedemo.com)
 
-
 ## Getting Started
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
+- Copy the link from my github account.
+- Create a local directory that you want to clone the repository.
+- Open the command prompt in the created directory.
+- On the terminal run this command git clone git@github.com:Addisu87/Conference-page.git
+- Go to the repository folder using the command prompt cd Conference-page.
+- Install the dev dependencies for linters run npm install.
 
 To get a local copy up and running follow these simple example steps.
 
@@ -36,21 +39,13 @@ To get a local copy up and running follow these simple example steps.
 
 ### Deployment
 
-
-
 ## Authors
 
-👤 **Author1**
+👤 **Addisu Haile**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [Addisu87](https://github.com/Addisu87)
+- Twitter: [@AddisuTedla](https://twitter.com/AddisuTedla)
+- LinkedIn: [Addisu Tedla](https://www.linkedin.com/in/addisu-tedla-8b4a10143/)
 
 ## 🤝 Contributing
 
@@ -64,9 +59,7 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+- Original design idea by - Cindy Shin in Behance.
 
 ## 📝 License
 
