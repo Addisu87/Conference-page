@@ -14,7 +14,7 @@
 
 ## Live Demo (if available)
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](https://github.com/Addisu87/Conference-page)
 
 ## Getting Started
 
