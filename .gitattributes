@@ -1,4 +1,3 @@
 
-# *.css linguist-language = JavaScript
-*.css linguist-detectable=false
-*.js linguist-detectable=true
+*.css linguist-language=JavaScript
+
