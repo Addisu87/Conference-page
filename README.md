@@ -1,43 +1,31 @@
-# Project Name
+# Conference page
 
-- Conference page
-
-> Description the project.
-
-- A conference page for Astronomy, AstroPhysics and Space Science summit.
+> A conference page for Astronomy, AstroPhysics and Space Science summit.
 
 ## Built With
 
-- Major languages - HTML, CSS and JavaScript
-- Frameworks
-- Technologies used
+- HTML 5
+- CSS 3
+- JavaScript
 
 ## Live Demo (if available)
 
 [Live Demo Link](https://github.com/Addisu87/Conference-page)
 
-## Getting Started
-
-- Copy the link from my github account.
-- Create a local directory that you want to clone the repository.
-- Open the command prompt in the created directory.
-- On the terminal run this command git clone git@github.com:Addisu87/Conference-page.git
-- Go to the repository folder using the command prompt cd Conference-page.
-- Install the dev dependencies for linters run npm install.
-
-To get a local copy up and running follow these simple example steps.
-
 ### Prerequisites
+
+- Any code editor like visual studio code, Atom
 
 ### Setup
 
+- run this command: git clone git@github.com:Addisu87/Conference-page.git
+
+To get a local copy up and running follow these simple example steps.
+
 ### Install
 
-### Usage
-
-### Run tests
-
-### Deployment
+- npm install
+- npm start
 
 ## Authors
 
@@ -49,9 +37,9 @@ To get a local copy up and running follow these simple example steps.
 
 ## 🤝 Contributing
 
-Contributions, issues, and feature requests are welcome!
+- Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
+Feel free to check the [issues page](https://github.com/Addisu87/Conference-page/issues).
 
 ## Show your support
 
