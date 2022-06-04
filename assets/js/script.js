@@ -38,7 +38,7 @@ const speakers = [
     name: 'Samuel Abayneh',
     title: 'Theoretical physicist @VORTEX|INSTITUTE',
     image: '../img/person3.jpg',
-    bio: 'Addisu Haile is a theoretical physicist, a philosopher of physics, the inspiration behind the New York Times best seller Sex on the Moon.',
+    bio: 'Samuel Abayneh is a theoretical physicist, a philosopher of physics, the inspiration behind the New York Times best seller Sex on the Moon.',
   },
   {
     name: 'Selam Teshome',
