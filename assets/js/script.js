@@ -47,9 +47,9 @@ const speakers = [
     bio: 'Selam Teshome has received a major grant to study very strong chemical bonds. The title of the project is: "Synthetic Catch Bonds."',
   },
   {
-    name: 'Mulugeta Worku',
+    name: 'Tizta Seyoum',
     title: 'Aalto University , Finland',
-    image: '../img/person5.jpeg',
+    image: '../img/person5.jpg',
     bio: 'Research topics include solar long-term variability and effects within projects ReSoLVE Center of Excellence and G-EPOS infrastructure in FIRI road map.',
   },
   {
