@@ -10,7 +10,7 @@
 
 ## Live Demo (if available)
 
-[Live Demo Link](https://github.com/Addisu87/Conference-page)
+[Live Demo Link](https://addisu87.github.io/Conference-page/)
 
 ### Prerequisites
 
